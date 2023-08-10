@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * Main function that takes integer as variable type and holds the puts() function with the input 
- * Returns 0 if successful an error if not
+ * main - A program that uses puts to print out a line
+ * Return: 0
  */
-int main ((void) {puts ("Programming is like building a multilingual puzzle\n"); return(0);}
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
