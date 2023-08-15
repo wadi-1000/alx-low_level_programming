@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * _abs - Gets the absolute value of an integer
+  *_abs - Gets absolute value of an integer
   * @c: The number to be tested.
   *
   * Return: Absolute value or zero
