@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * main - Function that prints _putchar, followed by a new line.
+ * _putchar - Function that prints _putchar, followed by a new line.
+ * @c: character to be written.
  *
- * Return: 0 (Successful)
+ * Return: 1 on success, -1 on error and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
