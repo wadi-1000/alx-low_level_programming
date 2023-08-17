@@ -4,11 +4,15 @@
  * _isdigit - Function that checks for a digit 0 through 9
  * @c: The character to be tested
  *
- * Return: 0 (Successful)
+ * Return: 1 (Successful), 0 if not
  */
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	else 
 	{
 		return (0);
 	}
