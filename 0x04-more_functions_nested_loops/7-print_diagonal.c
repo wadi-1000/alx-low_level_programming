@@ -3,7 +3,7 @@
 /**
  *print_line - Draws a diagonal line
  *@n: Number of times the character '_' should be printed
- * Return: void
+ *Return: void
  */
 void print_line(int n)
 {
