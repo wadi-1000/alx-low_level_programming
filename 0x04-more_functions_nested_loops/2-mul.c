@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * mul - Function that checks for a digit (0 throught).
- * @a: first integer
- * @b: second integer
+ * mul - Function that multiplies 2 integers.
+ * @a: a - first integer
+ * @b: b - second integer
  *
  * Return: Always 0
  */
