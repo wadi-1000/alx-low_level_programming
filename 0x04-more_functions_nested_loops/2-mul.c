@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - Function that multplies 2 integers
+ * mul - Function that checks for a digit (0 throught).
  * @a: first integer
  * @b: second integer
  *
