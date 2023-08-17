@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - Draws a diagonal line
+ *print_line - Draws a diagonal line
  *@n: Number of times the character '_' should be printed
 
  * Return: void
