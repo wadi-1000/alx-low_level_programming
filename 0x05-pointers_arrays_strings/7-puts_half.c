@@ -14,5 +14,17 @@ void puts_half(char *s)
 		len++;
 			s++;
 	}
-	return (len);
+	int start = len / 2;
+        if (len % 2 != 0)
+        {
+                start++;
+        }
+
+        /* Print the second half of the string */
+        while (s[start] != '\0')
+        {
+                _putchar(s[start]);
+                start++;
+        }
+        _putchar('\n');
 }
