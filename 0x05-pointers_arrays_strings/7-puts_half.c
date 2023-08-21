@@ -5,7 +5,7 @@
  *
  * Return: length
  */
-int puts-half(char *s)
+int puts_half(char *s)
 {
 	int len = 0;
 
