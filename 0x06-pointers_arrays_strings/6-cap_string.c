@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdbool.h>
+#include <ctype.h>
 
 /**
  * cap_string - Function that capitalizes all chars
