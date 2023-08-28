@@ -5,17 +5,26 @@
  * @s: String to search
  * @accept: Characters to match
  *
- * Return: Number of bytes in the initial segment of s
- * consisting only of bytes from accept
+ * Return: 0 (Successful)
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
+	unsigned int n = 0;
+	int l;
 
-	while (*s && strchr(accept, *s))
+	while (*s)
 	{
-		count++;
+		for (l = 0; accept(l); l++)
+		{
+			if (*s == accept(l))
+			{
+				n++;
+				break;
+			}
+			else if (accept[l + 1] == '\0')
+				return (n);
+		}
 		s++;
 	}
-	return (count);
+	return (n);
 }

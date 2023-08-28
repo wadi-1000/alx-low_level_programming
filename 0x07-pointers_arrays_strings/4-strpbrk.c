@@ -5,17 +5,20 @@
  * @s: The string to search
  * @accept: The set of bytes to search for
  *
- * Return: A pointer to the first occurrence of the byte
- * NULL if none is found
+ * Return: 0 (Successful)
  */
 char *_strpbrk(char *s, char *accept)
 {
+	int b;
+
 	while (*s)
 	{
-		if (_strchr(accept, *s))
-			return (s);
-		s++;
+		for (b = 0; accept[b]; b++)
+		{
+			if (*s == accept[b])
+				return (s);
+		}
+		s++
 	}
-	return (NULL);
+	return ('\0');
 }
-
