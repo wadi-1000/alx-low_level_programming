@@ -42,4 +42,3 @@ int _sqrt_recursive(int n, int i)
 	else
 	{
 		return (_sqrt_recursive(n, i + 1));
-	}
