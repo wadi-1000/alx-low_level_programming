@@ -19,5 +19,5 @@ int check_palindrome(char *s, int start, int end)
 	{
 		return (0);
 	}
-	return check__palindrome(s, start + 1, end - 1));
+	return check__palindrome(s, start + 1, end - 1);
 }
