@@ -32,3 +32,4 @@ int _sqrt_recursive(int n, int i)
 	{
 		return (_sqrt_recursive(n, i + 1));
 	}
+}
