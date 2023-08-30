@@ -1,13 +1,5 @@
 #include "main.h"
 
-/**
- * _sqrt_recursive - Recursive function
- * @n: Input number
- * @i: Value to check for natural root
- *
- * Return: Root or -1 if not a natural root
- */
-
 int _sqrt_recursive(int n, int i);
 
 /**
