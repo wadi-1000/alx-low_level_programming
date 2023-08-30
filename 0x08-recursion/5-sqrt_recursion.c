@@ -20,15 +20,12 @@ int _sqrt_recursion(int n)
 {
 	return (_sqrt_recursive(n, 1));
 }
-
 /**
  * _sqrt_recursive - Recursive function
  * @n: Input number
  * @i: Value to chec for natural root
- *
  * Return: Root
  */
-
 int _sqrt_recursive(int n, int i)
 {
 	if (i * i == n)
@@ -42,3 +39,4 @@ int _sqrt_recursive(int n, int i)
 	else
 	{
 		return (_sqrt_recursive(n, i + 1));
+	}
