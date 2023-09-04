@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_grid - Prints a grid of integers
+ * free_grid - Prints a grid of integers
  * @grid: the addresses of the 2d grid
  * @width: width of the grid
  * @height: height of the grid
