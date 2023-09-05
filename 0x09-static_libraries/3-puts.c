@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _puts - Function that prints a string thena new line
- * @s: string
+ * @str: string
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	while (*s != '\0')
-	{
-		_putchar(*s++);
-	}
-	_putchar('\n');
+        while (*str != '\0')
+        {
+                _putchar(*str++);
+        }
+        _putchar('\n');
 }

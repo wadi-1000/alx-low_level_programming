@@ -1,20 +1,11 @@
-#include "main.h"
-
+#include <unistd.h>
 /**
- * main - Input
+ * _putchar - Function that prints _putchar, followed by a new line.
+ * @c: character to be written.
  *
- * Return: 0 (Successful)
+ * Return: 1 on success, -1 on error and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+        return (write(1, &c, 1));
 }
