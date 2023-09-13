@@ -62,7 +62,7 @@ int op_div(int a, int b)
  *
  * Return: Modal of the two.
  */
-int op_add(int a, int b)
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
