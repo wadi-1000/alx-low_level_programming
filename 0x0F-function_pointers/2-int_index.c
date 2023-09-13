@@ -10,7 +10,7 @@
  * If size <= 0, return -1
  * else index of the first element
  */
-int int_index(int *array, int size, int (*cmp)(int))
+int int_index(int *array, int size, int(*cmp)(int))
 {
 	int i = 0;
 
@@ -20,7 +20,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		{
 			while (i < size)
 			{
-				if (amp(array[i]))
+				if (cmp(array[i]))
 					return (i);
 				i++;
 			}
