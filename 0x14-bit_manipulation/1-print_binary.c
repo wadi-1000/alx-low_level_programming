@@ -17,7 +17,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 		num *= base;
 	return (num);
 }
-
+int _putchar(char c);
 /**
  * print_binary - prints a number in binary notation
  * @n: number to print
